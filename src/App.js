@@ -12,7 +12,7 @@ export default function App() {
 
         <footer>
           <strong>
-            Coded by Lauryn Mutai{" "}
+            Developed by Lauryn Mutai{" "}
             <a
               href="https://github.com/chichi5454"
               target="_blank"
