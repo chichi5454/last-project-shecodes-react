@@ -1,0 +1,89 @@
+/** @format */
+
+.Weather {
+  font-family: arial, sans-serif;
+  padding: 16px;
+  color: #24527a;
+  /* color: rgb(135, 135, 135); */
+  /* background-color: yellowgreen; */
+}
+
+.Weather form {
+  margin-bottom: 10px;
+  /* background-color: aliceblue; */
+  padding: 10px;
+  display: flex;
+}
+
+.Weather .row {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.Weather .col-9 .form-control {
+  width: 300px;
+  height: 30px;
+  font-size: large;
+  border: 1px solid #24527a;
+  border-radius: 20px;
+  padding: 10px;
+  color: #24527a;
+}
+
+.Weather .col-3 input[type="submit" i] {
+  width: 100px;
+  height: 30px;
+  font-size: large;
+  background-color: #24527a;
+  color: #e0ebeb;
+  border: 2px solid #24527a;
+  border-radius: 20px;
+}
+
+.WeatherDescription {
+  margin-bottom: 10px;
+  /* background-color: blueviolet; */
+}
+
+.Weather h1 {
+  font-size: 24px;
+  font-weight: 100;
+  margin: 20px 0 0 0;
+  line-height: 29px;
+}
+
+.Weather ul {
+  margin: 0;
+  padding: 0;
+}
+
+.Weather li {
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 19px;
+  list-style: none;
+}
+
+.Weather .temperature {
+  font-weight: bold;
+  color: rgb(33, 33, 33);
+  font-size: 64px;
+  line-height: 64px;
+  margin-left: 5px;
+  font-weight: 400;
+  margin-left: 10px;
+}
+
+.Weather canvas {
+  margin: 10px auto;
+}
+
+.Weather .unit {
+  color: rgb(33, 33, 33);
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  line-height: 1;
+  top: -34px;
+}

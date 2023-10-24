@@ -1,0 +1,15 @@
+/** @format */
+
+.App {
+  max-width: 600px;
+  margin: 30px auto;
+  color: #24527a;
+  background-color: #e0ebeb;
+  padding: 1rem;
+}
+
+.App footer {
+  font-size: 11px;
+  margin: 10px 0;
+  font-size: 14px;
+}

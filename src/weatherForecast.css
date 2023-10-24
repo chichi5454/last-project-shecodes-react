@@ -1,0 +1,13 @@
+/** @format */
+
+.WeatherForecast .row {
+  text-align: center;
+  margin-top: 10px;
+  /* background-color: brown; */
+  justify-content: space-evenly;
+}
+
+.WeatherForecast-temperature-min {
+  opacity: 0.6;
+  margin-left: 5px;
+}
