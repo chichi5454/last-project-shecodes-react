@@ -13,3 +13,11 @@
   margin: 10px 0;
   font-size: 14px;
 }
+@media (max-width: 620px) {
+  .App {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    width: min-content;
+  }
+}

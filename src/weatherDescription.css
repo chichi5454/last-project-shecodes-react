@@ -18,3 +18,17 @@
   display: flex;
   flex-direction: column;
 }
+
+@media (max-width: 620px) {
+  .WeatherDescription {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .WeatherDescription .col-6 .d-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    max-width: min-content;
+  }
+}
